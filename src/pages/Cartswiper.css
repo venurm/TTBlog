@@ -1,0 +1,25 @@
+.mySwiper{
+    position: relative;
+    height: 400px   ;
+}
+.inner-swipper .card{
+    box-shadow: none;
+    border-radius: 0px;
+    border: none;
+    
+}
+.inner-swipper .card .btn{
+    width: 100%;
+}
+.Btn-group{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 230px;
+  z-index: 1;
+}
+.s-btn{
+    background-color: rgba(134, 134, 134, 0.459);
+    padding: 20px;
+    
+}

@@ -1,0 +1,8 @@
+[
+  { "name": "All Products", "seo_url": "All-Products", "id": 17 },
+  { "name": "Men", "seo_url": "Men", "id": 18 },
+  { "name": "Women", "seo_url": "Women", "id": 19 },
+  { "name": "Kids", "seo_url": "Kids", "id": 20 },
+  { "name": "Couple Collection", "seo_url": "Couple-Collection", "id": 21 },
+  { "name": "Apparels", "seo_url": "Apparels", "id": 22 }
+]

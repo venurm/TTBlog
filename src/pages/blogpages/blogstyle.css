@@ -1,0 +1,182 @@
+.banner-1 {
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8)), url('https://images.bewakoof.com/image/content/2024/03/27005601/best-anime-of-all-time-768x432.png');
+  height: 440px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: start;
+  padding-left: 20px;
+  align-items: end;
+  z-index: 1;
+  overflow: hidden; /* Prevent image overflow */
+  position: relative; /* Required for pseudo element */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 10s ease, background-size 10s ease; /* Slow transition for zoom effect */
+}
+
+/* Hover Results */
+.banner-1:hover {
+  transform: transform 10s ease,;
+  background-size: 120%; /* Zoom effect on hover */
+}
+
+
+.bannn-2{
+    background:linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8)), url('https://images.bewakoof.com/image/content/2024/03/27002508/summer-fashion-trends-2024-1.png');
+    height: 210px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    align-items: end;
+}
+.bannn-3{
+    background:linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8)), url('https://images.bewakoof.com/image/content/2024/03/27005116/kung-fu-panda-series-1-768x432.png');
+    height: 225px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    align-items: end;
+}
+.bannn-4{
+    background:linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8)), url('https://images.bewakoof.com/image/content/2024/03/26132156/summer-fashion-trends-2024-6-768x432.png');
+    height: 225px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    align-items: end;
+}
+
+
+.blogcatmenu{
+ border-bottom: 1px solid rgb(38, 0, 255);
+}
+.blogcatmenu  > :first-child{
+  background-color: rgba(17, 0, 200, 0.805);
+  padding: 13px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 10px;
+  margin-bottom: 3px;
+}
+.blogcatmenu > :nth-child(2) a {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+  .popularposts{
+    padding: 10px;
+  }
+  .popularposts h5{
+background-color: black;
+color: white;
+padding: 10px;
+font-size: 14px;
+font-weight: 600;
+margin-bottom: 10px;
+  }
+  .popularposts img{
+    width: 200px;
+    padding-right: 10px;
+  }
+  .popularposts .content{
+font-size: 15px;
+font-weight: 600;
+  }
+.popularposts .content p{
+font-weight: 300;
+font-size: 13px;
+}
+.nav-btn{
+  background-color: black ;
+  color: white;
+  font-size: 12px;
+font-weight: 800;
+text-align: center;
+display: flex;
+align-items: center;
+padding: 0px 20px ;
+
+}
+.nav-blog{
+  background-color:#0953ffdb;
+}
+.nav-blog2 p{
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.open {
+  width: 250px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: white;
+}
+
+.sidenav-content {
+  padding: 16px;
+}
+.sidenav-content p{
+  color: white;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(72, 72, 72, 0.577);
+}
+
+.text-black {
+  color: #000;
+}
+
+.openbtn {
+  font-size: 20px;
+}
+  @media screen and (max-width:600px) {
+    .nav-blog{
+      background-color:white;
+      border-bottom: 1px solid rgba(51, 51, 51, 0.147);
+    }
+    .nav-blog img{
+  width: 120px;
+    }
+    .nav-blog .nav-btn{
+         background-color: white;
+         color: black;
+         font-size: 14px;
+    }
+     .blogcatmenu  > :first-child{
+       background-color: rgba(17, 0, 200, 0.805);
+       padding: 13px;
+       color: white;
+       font-weight: 600;
+       letter-spacing: 1px;
+       font-size: 7px;
+       margin-bottom: 3px;
+     }
+     .blogcatmenu > :nth-child(2) a {
+         font-weight: 600;
+         letter-spacing: 1px;
+         font-size: 10px;
+       }
+  }

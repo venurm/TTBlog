@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /myaccount/
+Disallow: /mywallet/
+Disallow: /account/
+Disallow: /cart/
+Disallow: /checkout/
+Sitemap: https://www.tamiltshirts.in/sitemap.xml
